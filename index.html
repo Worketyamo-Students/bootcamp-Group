@@ -5,25 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
 
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
-    <style type="text/tailwindcss">
-        @theme {
-            --color-clifford: #da373d;
-            --color-header: #26335D;
-            --color-primary: #FF6551;
-
-            --font-Montserrat: "Montserrat", sans-serif;
-
-        }
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=IBM+Plex+Sans+Hebrew:wght@100;200;300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
     </style>
+    
+    <style type="text/tailwindcss">  
+
+       @theme {        
+            --color-primary: #FF6551; 
+            --color-secondary: #26335D;
+            --color-background: #FFFFFF;
+            --font-Montserrat: 'Montserrat', sans-serif;
+              }   
+    </style>
+
 </head>
-<body class="w-screen h-screen">
-   
+<body>
+
+<section class=" md:flex md:flex-row   bg-white h-[50rem] w-screen flex flex-col items-center justify-evenly m-10 gap-5">
+        <div class="flex flex-col items-center md:items-baseline ">
+            <div class="md:w-25 md:h-[5px] md:bg-secondary" ></div><br>
+            <span class=" text-3xl font-bold ">Our Popular Courses</span> <br><br>
+            <span class="text-[15px] w-65 font-extralight">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics </span><br>
+            <button><a href="#" class="text-primary ">Learn More ></a></button>
+       </div>
+
+    <div class=" md:flex md:flex-row md:gap-10 flex flex-col items-center gap-0">
+        <div class=" md:flex md:flex-col md:gap-10 flex flex-row gap-4">
+                <div class="w-[9rem] h-[14rem] bg-white shadow-xl flex flex-col items-center justify-around gap-0">
+                    <img src="./assets/images/livre_ferme.png" alt="livre fermer" class="w-[3rem] h-[3rem]">
+                    <span class="text-[.7rem] font-bold" >Training Courses</span>
+                    <div class="w-[2rem] h-[3px] bg-primary"></div> 
+                    <div class="text-[10px] w-[5rem] h-[4rem]  ">The gradual <br>accumulation of information about </div>
+                </div>
+                <div class="w-[8rem] h-[13rem] bg-white shadow-xl flex flex-col items-center justify-around gap-0">
+                    <img src="./assets/images/livre_ouvert.png" alt="livre fermer" class="w-[3rem] h-[3rem]">
+                    <span class="text-[.7rem] font-bold" >Training Courses</span>
+                    <div class="w-[2rem] h-[3px] bg-primary"></div> 
+                    <div class="text-[10px] w-[5rem] h-[4rem]  ">The gradual <br>accumulation of information about </div>
+                </div>
+       </div>
+
+                <div class="  w-[8rem] h-[13rem] bg-white shadow-xl flex flex-col items-center justify-around gap-0">
+                    <img src="./assets/images/tableau.png" alt="livre fermer" class="w-[3rem] h-[3rem]">
+                    <span class="text-[.7rem] font-bold" >Training Courses</span>
+                    <div class="w-[2rem] h-[3px] bg-primary"></div> 
+                    <div class="text-[10px] w-[5rem] h-[4rem]  ">The gradual <br>accumulation of information about </div>
+                </div>
+       </div>
+
+
+</section>
+    
 </body>
 </html>
